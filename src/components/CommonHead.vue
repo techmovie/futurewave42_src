@@ -17,7 +17,9 @@
           <router-link to="/about">公司介绍<br />About Us</router-link>
         </li>
         <li>
-          <a href="#">作品推荐<br />Recommandation</a>
+          <router-link to="/recommendation"
+            >作品推荐<br />Recommandation</router-link
+          >
         </li>
         <li>
           <a href="#">相关视频<br />Video</a>
