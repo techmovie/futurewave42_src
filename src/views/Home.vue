@@ -2,7 +2,6 @@
   <div class="home">
     <div class="wrapper row1">
       <div id="pageintro" class="hoc clear">
-        <!-- ################################################################################################ -->
         <article>
           <h3 class="heading" style="color: white">Future Wave</h3>
         </article>
@@ -14,7 +13,6 @@
           <p>携手乘风破浪</p>
           <p>Riding the Winds and Breaking the Waves Together</p>
         </article>
-        <!-- ################################################################################################ -->
       </div>
     </div>
   </div>

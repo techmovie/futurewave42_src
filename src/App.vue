@@ -1,4 +1,5 @@
 <template>
+  <!-- for transparent effect -->
   <div
     class="bgded overlay"
     style="

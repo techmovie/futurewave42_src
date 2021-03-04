@@ -24,9 +24,9 @@
         <li>
           <a href="#">相关视频<br />Video</a>
         </li>
-        <li>
+        <!-- <li>
           <a href="#">联系我们<br />Contect Us</a>
-        </li>
+        </li> -->
       </ul>
     </nav>
   </header>
