@@ -1,15 +1,10 @@
 <template>
   <!-- for transparent effect -->
-  <div
-    class="bgded overlay"
-    style="
-      background-image: url('/assets/images/background/2001_space_odessey_1.jpg');
-    "
-  >
-    <CommonHead></CommonHead>
 
-    <router-view />
-  </div>
+  <CommonHead></CommonHead>
+
+  <router-view />
+
   <CommonFooter></CommonFooter>
 </template>
 

@@ -24,9 +24,11 @@
         <li>
           <a href="#">相关视频<br />Video</a>
         </li>
-        <!-- <li>
-          <a href="#">联系我们<br />Contect Us</a>
-        </li> -->
+        <li>
+           <router-link to="/contact"
+            >联系我们<br />Contact Us</router-link
+          >
+        </li>
       </ul>
     </nav>
   </header>

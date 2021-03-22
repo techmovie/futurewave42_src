@@ -38,8 +38,6 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #header {
   padding: 0 15px;
-  border: solid;
-  border-width: 1px 0;
 }
 
 #header #logo {
@@ -838,7 +836,7 @@ nav ol {
   display: block;
   padding: 8px 11px;
   border: 1px solid;
-  background-clip: padding-box;
+  background-clip: padding;
   font-weight: normal;
 }
 
@@ -998,6 +996,7 @@ td {
 body {
   color: #C1C2C4;
   background-color: #2A2D34;
+  height: 100vh;
 }
 
 a {
