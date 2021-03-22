@@ -77,23 +77,7 @@
     </footer>
   </div>
 
-  <div class="wrapper row5">
-    <div id="copyright" class="hoc clear">
-      <p class="fl_left">
-        Copyright &copy; 2018 - All Rights Reserved -
-        <a href="#">Futurewave42</a>
-      </p>
-      <p class="fl_right">
-        Template by
-        <a
-          target="_blank"
-          href="https://www.futurewave42.com/"
-          title="Futurewave42"
-          >Futurewave42</a
-        >
-      </p>
-    </div>
-  </div>
+  
 </template>
 
 <script>
