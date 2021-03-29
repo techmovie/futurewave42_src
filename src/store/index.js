@@ -47,7 +47,7 @@ export default createStore({
             <p>Francesco Verso GoH at the 2015 <a href="https://www.youtube.com/watch?v=BRasKVnuVC4">Utopiales in Nantes</a> talking about Italian SF (in English).</p>
             <p>Essay by Jana Vizmuller Zocco <a href="http://www.rifp.it/ojs/index.php/rifp/article/viewFile/rifp.2014.0028/346">“Science Fiction and Ontologies of Leadership”</a>, Rivista Internazionale di Filosofia e Psicologia. (In English) </p>
             <p>Rivista Internazionale di Filosofia e Psicologia. (In English) </p>
-            <p>Review by Jana Vizmuller Zocco on <a href=""https://jvzocco.wordpress.com/2015/12/01/lividonexhuman/>Reading rascal.</a> (In English) </p>
+            <p>Review by Jana Vizmuller Zocco on <a href="https://jvzocco.wordpress.com/2015/12/01/lividonexhuman/">Reading rascal.</a> (In English) </p>
             <p>Review by <a href="https://sfra.wildapricot.org/resources/Documents/SFRA%20314.pdf">SFRA Review nr 314</a> by Fernando Porta (in English) </p>
             <p>Review by Rachel Cordasco on <a href="http://strangehorizons.com/non-fiction/reviews/nexhuman-by-francesco-verso-translated-by-sally-mccorry/">Strange Horizons.</a> (In English) </p>
 
