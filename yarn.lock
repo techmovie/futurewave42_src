@@ -1242,6 +1242,11 @@
   resolved "https://registry.npm.taobao.org/@vue/cli-plugin-vuex/download/@vue/cli-plugin-vuex-4.5.11.tgz?cache=0&sync_timestamp=1611327808313&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fcli-plugin-vuex%2Fdownload%2F%40vue%2Fcli-plugin-vuex-4.5.11.tgz#f6f619bcfb66c86cc45340d73152844635e548bd"
   integrity sha1-9vYZvPtmyGzEU0DXMVKERjXlSL0=
 
+"@vue/cli-plugin-vuex@~4.5.0":
+  version "4.5.12"
+  resolved "https://registry.npm.taobao.org/@vue/cli-plugin-vuex/download/@vue/cli-plugin-vuex-4.5.12.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fcli-plugin-vuex%2Fdownload%2F%40vue%2Fcli-plugin-vuex-4.5.12.tgz#f7fbe177ee7176f055b546e9e74472f9d9177626"
+  integrity sha1-9/vhd+5xdvBVtUbp50Ry+dkXdiY=
+
 "@vue/cli-service@~4.5.0":
   version "4.5.11"
   resolved "https://registry.npm.taobao.org/@vue/cli-service/download/@vue/cli-service-4.5.11.tgz?cache=0&sync_timestamp=1611327414736&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fcli-service%2Fdownload%2F%40vue%2Fcli-service-4.5.11.tgz#b157e2eee2351889cbbd4ccb4a4a9d8575409175"
@@ -8251,6 +8256,11 @@ vue@^3.0.0:
     "@vue/compiler-dom" "3.0.5"
     "@vue/runtime-dom" "3.0.5"
     "@vue/shared" "3.0.5"
+
+vuex@^4.0.0-0:
+  version "4.0.0"
+  resolved "https://registry.npm.taobao.org/vuex/download/vuex-4.0.0.tgz?cache=0&sync_timestamp=1612277442796&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvuex%2Fdownload%2Fvuex-4.0.0.tgz#ac877aa76a9c45368c979471e461b520d38e6cf5"
+  integrity sha1-rId6p2qcRTaMl5Rx5GG1INOObPU=
 
 watchpack-chokidar2@^2.0.1:
   version "2.0.1"

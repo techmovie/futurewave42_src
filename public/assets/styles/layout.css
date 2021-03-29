@@ -129,7 +129,7 @@ File: Layout CSS
   display: block;
   max-width: 55%;
   margin: 0 auto 80px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .sectiontitle .heading {
