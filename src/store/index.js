@@ -1,6 +1,7 @@
 import { createStore } from 'vuex'
 
 import { nexhuman } from "../data/books/nexhuman"
+import { blood_buster} from "../data/books/blood_buster"
 
 console.log(nexhuman)
 
@@ -8,7 +9,8 @@ export default createStore({
   state: {
     books:
       [
-        nexhuman
+        nexhuman,
+        blood_buster
       ],
   },
   getters: {

@@ -11,8 +11,11 @@
           class="one_third uk-text-center"
         >
         <router-link :to="'/recommendation/'+book.id">
-          <a class="imgover" href="#"><img :src="book.image" alt="" /></a>
-          <p>{{ book.name }}</p>
+          <a class="imgover" href="#"><img :src="book.image" class="uk-height-medium" alt="" /></a>
+          <p><span class="uk-text-bold uk-text-large">{{ book.name }}</span>
+          <br>{{ book.author }}
+          <br>{{ book.language}}
+          </p>
           </router-link>
         </li>
       </ul>
