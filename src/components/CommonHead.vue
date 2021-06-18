@@ -1,33 +1,43 @@
 <template>
   <header id="header" class="hoc clear">
-    <div id="logo" class="fl_left" style="height: 100px">
+    <div
+      id="logo"
+      class="fl_left"
+      style="height: 100px"
+    >
       <a href="index.html" style="color: white">
         <img
           src="/assets/images/logo/logo_futurewave_bianco.png"
           class="uk-height-1-1"
-        />
+        >
       </a>
     </div>
     <nav id="mainav" class="fl_right">
       <ul class="clear uk-text-center">
         <li class="active">
-          <router-link to="/">首页<br />Home</router-link>
+          <router-link to="/">首页
+            <br>Home
+          </router-link>
         </li>
         <li>
-          <router-link to="/about">公司介绍<br />About Us</router-link>
+          <router-link to="/about">公司介绍
+            <br>About Us
+          </router-link>
         </li>
         <li>
-          <router-link to="/recommendation"
-            >作品推荐<br />Recommandation</router-link
-          >
+          <router-link to="/recommendation">作品推荐
+            <br>Recommandation
+          </router-link>
         </li>
         <li>
-          <a href="#">相关视频<br />Video</a>
+          <router-link to="/video">相关视频
+            <br>VIDEO
+          </router-link>
         </li>
         <li>
-           <router-link to="/contact"
-            >联系我们<br />Contact Us</router-link
-          >
+          <router-link to="/contact">联系我们
+            <br>Contact Us
+          </router-link>
         </li>
       </ul>
     </nav>

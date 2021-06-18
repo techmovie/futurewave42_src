@@ -1,26 +1,28 @@
 import { createStore } from 'vuex'
-
-import { nexhuman } from "../data/books/nexhuman"
-import { blood_buster} from "../data/books/blood_buster"
-
-console.log(nexhuman)
+import { getConfig } from '../api'
 
 export default createStore({
   state: {
-    books:
-      [
-        nexhuman,
-        blood_buster
-      ],
+    config: [],
   },
   getters: {
-    getById: (state) => (id) => {
-      return state.books.find(book => book.id === id)
-    }
   },
   mutations: {
+    SET_CONFIG: (state, config) => {
+      state.config = config
+    },
   },
   actions: {
+    getConfig({ commit }) {
+      return new Promise((resolve, reject) => {
+        getConfig().then(res => {
+          commit('SET_CONFIG', res.data)
+          resolve()
+        }).catch(error => {
+          reject(error)
+        })
+      })
+    },
   },
   modules: {
   }

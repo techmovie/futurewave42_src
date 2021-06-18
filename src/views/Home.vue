@@ -9,16 +9,15 @@
       <div class="wrapper row1">
         <div id="pageintro" class="hoc clear">
           <article>
-            <h3 class="heading" style="color: white">Future Wave</h3>
+            <h3
+              class="heading"
+              style="color: white"
+            >Future Wave</h3>
           </article>
-          <article id="slogan">
-            <p>未来将至</p>
-            <p>The Future Is Coming</p>
-            <p>专注科幻与奇幻IP孵化</p>
-            <p>Focus On Science Fiction and Fantasy</p>
-            <p>携手乘风破浪</p>
-            <p>Riding the Winds and Breaking the Waves Together</p>
-          </article>
+          <article
+            v-html="$store.state.config.home"
+            id="slogan"
+          ></article>
         </div>
       </div>
     </div>

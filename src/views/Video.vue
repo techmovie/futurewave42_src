@@ -5,22 +5,20 @@
       class="hoc container clear"
     >
       <div class="sectiontitle">
-        <h6 class="heading uk-text-center">作品推荐
-          <br>Recommandation
+        <h6 class="heading uk-text-center">相关视频
+          <br>Videos
         </h6>
       </div>
       <ul class="nospace group ref-img">
         <li
-          v-for="(book, index) in bookList"
+          v-for="(video, index) in videoList"
           :key="index"
           class="one_third uk-text-center"
         >
-          <router-link
-            :to="'/recommendation/'+book.id"
-          >
+          <router-link :to="'/video/'+video.id">
             <a class="imgover" href="#">
               <img
-                :src="fileHost+'/'+book.image"
+                :src="fileHost+'/'+video.image"
                 class="uk-height-medium"
                 alt=""
               >
@@ -28,11 +26,8 @@
             <p>
               <span
                 class="uk-text-bold uk-text-large"
-              >{{ book.name }}</span>
+              >{{ video.title }}</span>
               <br>
-              {{ book.author }}
-              <br>
-              {{ book.language}}
             </p>
           </router-link>
         </li>
@@ -42,26 +37,31 @@
 </template>
 
 <script>
-import {artworkList} from '../api'
+import {videoList} from '../api'
 const BASE_API = process.env.VUE_APP_BASE_API
 export default {
   name: "Recommendation",
   data: ()=>{
     return {
-      bookList: [],
+      videoList: [],
       fileHost: `${BASE_API}/files`,
     }
   },
   created(){
-    this.getBookList();
+    this.getVideoList();
   },
   methods: {
-    getBookList(){
-      artworkList().then(res=>{
-        this.bookList =res.data
+    getVideoList(){
+      videoList().then(res=>{
+        this.videoList =res.data
       })
     }
   }
 };
 
 </script>
+<style scoped>
+.imgover::after {
+  content: '\f04b';
+}
+</style>
